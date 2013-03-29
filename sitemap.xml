@@ -3,4 +3,9 @@
 	<url>
 		<loc>http://2hanson.github.com/</loc>
 	</url>
+	<url>
+		<loc>http://2hanson.github.com/default/Welcome/</loc>
+		<lastmod>2013-03-29</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
 </urlset>
