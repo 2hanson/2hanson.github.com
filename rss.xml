@@ -3,7 +3,49 @@
   <channel>
     <title>Home</title>
     <link>http://2hanson.github.com</link>
-    <pubDate>2013-03-31 10:32:31 +0800</pubDate>
+    <pubDate>2013-07-03 08:57:21 +0800</pubDate>
+    <item>
+      <title>语音识别学习总结</title>
+      <link>http://2hanson.github.com/语言识别，HTK/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</link>
+      <pubDate>2013-07-03 12:00:00 +0800</pubDate>
+      <description>&lt;p&gt;前端时间用HTK磕磕碰碰的走了一遍语言识别的整个流程，对语言识别有了个初步的了解，下面是自己对这段时间学习的总结。&lt;/p&gt;
+
+&lt;p&gt;语音识别系统整体上包括两大部分：训练和识别。&lt;/br&gt;
+训练：海量语音、语言数据库 —(信号处理和知识挖掘)—&amp;gt; 声学模型+语言模型 &lt;/br&gt;
+识别：利用训练好的“声学模型”和“语言模型”对用户说话的特征向量进行统计模式识别（又称“解码”），得到其包含的文字信息, 乔正“声学模型”和“语言模型”。&lt;/br&gt;
+一个最基本的语音识别系统如下图所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.evernote.com/shard/s222/sh/3df397cf-38fd-4aa8-801c-4c1a8fa1c59d/2396ac7541637076ecaaf6121f2a3bc3/res/89ab11b7-b64c-4282-9495-00b9a4c973a4.png?resizeSmall&amp;width=832&#34; width=&#34;540&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;
+主要包括一下四个模块
+&lt;/br&gt;
+1.特征提取
+    a)用HCopy可以对语音材料库中的声音文件提取MFCC声纹特征
+&lt;/br&gt;
+2.声学模型
+    a)用HInit，Hcompv，HRest等工具来训练声学模型（HMM）
+&lt;/br&gt;
+3.语音模型
+    a)用HParse来训练语音模型
+&lt;/br&gt;
+4.字典
+    a)发音对应到文字
+&lt;/br&gt;
+有了以上准备之后就可以用HVite进行识别：
+&lt;/br&gt;
+识别的大概原理就是，用生成的语音模型形成图（用字典把语音模型的词转成与其对应的基本元），图的点就是词的基本元，图里边的权值根据声学模型的HMM计算出来，然后对提取出来的MFCC声纹特征（理解成一个矩阵数组）在图里找路径正好覆盖它。这条路径对应的词就是识别的结果&lt;/br&gt;
+最后HTK给我的感觉就是HTK的参数设置有点乱，最后整个试验过程中在语料准备方面微微遇到点麻烦。
+&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;
+参考链接：
+HTK官方主页：http://htk.eng.cam.ac.uk/ &lt;/br&gt;
+新加坡国立大学语言识别课件：http://www.comp.nus.edu.sg/~simkc/slides/ &lt;/br&gt;
+语音识别工具箱之HTK安装与使用：
+&lt;a href=&#34;http://www.cnblogs.com/mingzhao810/archive/2012/08/03/2617674.html&#34;&gt;http://www.cnblogs.com/mingzhao810/archive/2012/08/03/2617674.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Welcome</title>
       <link>http://2hanson.github.com/default/Welcome/</link>
