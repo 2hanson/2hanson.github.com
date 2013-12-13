@@ -11,7 +11,7 @@ $axure.eventManager.click('u20', function(e) {
 
 if (true) {
 
-	NewTab($axure.globalVariableProvider.getLinkUrl('Page_1.html'), "");
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('Page_1.html');
 
 }
 });
