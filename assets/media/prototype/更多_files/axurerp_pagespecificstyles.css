@@ -303,7 +303,7 @@ div {
     left:318px;
     top:139px;
     width:180px;
-    height:80px;
+    height:38px;
 }
 
 #u16_img {
@@ -311,13 +311,13 @@ div {
     left:-3px;
     top:-3px;
     width:186px;
-    height:86px;
+    height:44px;
 }
 
 .u17 {
     position:absolute;
     left:2px;
-    top:34px;
+    top:12px;
     width:176px;
     height:13px;
     ;
@@ -329,15 +329,15 @@ div {
 }
 
 .u18_normal {
-    background-image: url('../更多_files/u16_normal.png');
+    background-image: url('../更多_files/u18_normal.png');
 }
 
 .u18_container {
     position:absolute;
-    left:314px;
-    top:237px;
+    left:318px;
+    top:193px;
     width:180px;
-    height:80px;
+    height:33px;
 }
 
 #u18_img {
@@ -345,13 +345,13 @@ div {
     left:-3px;
     top:-3px;
     width:186px;
-    height:86px;
+    height:39px;
 }
 
 .u19 {
     position:absolute;
     left:2px;
-    top:34px;
+    top:10px;
     width:176px;
     height:13px;
     ;
@@ -363,15 +363,15 @@ div {
 }
 
 .u20_normal {
-    background-image: url('../更多_files/u16_normal.png');
+    background-image: url('../更多_files/u20_normal.png');
 }
 
 .u20_container {
     position:absolute;
     left:318px;
-    top:327px;
+    top:249px;
     width:180px;
-    height:80px;
+    height:39px;
 }
 
 #u20_img {
@@ -379,13 +379,13 @@ div {
     left:-3px;
     top:-3px;
     width:186px;
-    height:86px;
+    height:45px;
 }
 
 .u21 {
     position:absolute;
     left:2px;
-    top:34px;
+    top:13px;
     width:176px;
     height:13px;
     ;
@@ -777,6 +777,40 @@ div {
     left:2px;
     top:4px;
     width:297px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../更多_files/u20_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:318px;
+    top:322px;
+    width:180px;
+    height:39px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:45px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:176px;
     height:13px;
     ;
     ;
