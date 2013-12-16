@@ -178,3 +178,23 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide_page_files/u56_normal.png");
 }
 
+* html .u71_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide_page_files/u71_normal.png");
+}
+
+* html .u73_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide_page_files/u73_line.png");
+}
+
+* html .u74_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide_page_files/u74_normal.png");
+}
+
+* html .u76_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide_page_files/u76_line.png");
+}
+
