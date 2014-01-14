@@ -369,7 +369,7 @@ div {
 .u20_container {
     position:absolute;
     left:318px;
-    top:249px;
+    top:279px;
     width:180px;
     height:39px;
 }
@@ -793,7 +793,7 @@ div {
 .u44_container {
     position:absolute;
     left:318px;
-    top:322px;
+    top:334px;
     width:180px;
     height:39px;
 }
@@ -807,6 +807,40 @@ div {
 }
 
 .u45 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../更多_files/u20_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:318px;
+    top:234px;
+    width:180px;
+    height:39px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:45px;
+}
+
+.u47 {
     position:absolute;
     left:2px;
     top:13px;
